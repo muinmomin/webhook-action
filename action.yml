@@ -1,4 +1,4 @@
-name: 'Muin Momin'
+name: 'Webhook POST Action'
 description: 'Send a POST request to trigger any webhook'
 author: 'Muin Momin'
 branding:
