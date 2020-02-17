@@ -1,6 +1,6 @@
 # webhook-action
 
-Send a POST request to trigger any webhook
+GitHub Action that sends a POST request. Useful for triggering a webhook for CI/CD.
 
 ## Inputs
 
@@ -16,8 +16,13 @@ Optional: JSON string of data to pass into request. Default `"{}"`.
 ## Example usage
 
 ```yaml
-uses: muinmomin/webhook-action@v1
+uses: muinmomin/webhook-action@v1.0.0
 with:
   url: ${{ secrets.WEBHOOK_URL }}
   data: "{'command': 'publish'}"
 ```
+
+
+## Contributing
+
+Feel free to open issues or submit PRs.
