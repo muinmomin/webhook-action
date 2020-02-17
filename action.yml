@@ -1,10 +1,14 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'Muin Momin'
+description: 'Send a POST request to trigger any webhook'
+author: 'Muin Momin'
 inputs:
-  myInput:              # change this
-    description: 'input description here'
-    default: 'default value if applicable'
+  url:
+    description: 'URL of webhook to send post request to'
+    required: true
+  data:
+    description: 'JSON string of data to pass into request'
+    default: ''
+    required: false
 runs:
   using: 'node12'
   main: 'dist/index.js'
