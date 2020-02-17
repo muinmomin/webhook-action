@@ -1,8 +1,8 @@
 {
-  "name": "typescript-action",
-  "version": "0.0.0",
+  "name": "post-webhook-action",
+  "version": "1.0.0",
   "private": true,
-  "description": "TypeScript template action",
+  "description": "Send a POST request to trigger any webhook",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
@@ -15,17 +15,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/typescript-action.git"
+    "url": "git+https://github.com/muinmomin/Webhook-Action.git"
   },
   "keywords": [
     "actions",
     "node",
-    "setup"
+    "webhook",
+    "post",
+    "github"
   ],
-  "author": "YourNameOrOrganization",
+  "author": "Muin Momin",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.2.0"
+    "@actions/core": "^1.2.0",
+    "axios": "^0.19.2"
   },
   "devDependencies": {
     "@types/jest": "^24.0.23",
