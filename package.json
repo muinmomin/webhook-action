@@ -27,7 +27,7 @@
   "author": "Muin Momin",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.2.0",
+    "@actions/core": "^1.2.6",
     "axios": "^0.19.2"
   },
   "devDependencies": {
